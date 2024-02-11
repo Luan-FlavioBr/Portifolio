@@ -1,0 +1,12 @@
+:root {
+    /*Colors*/
+    --bg-color-dark: #171717;
+    --bg-icon-green: #27AE60;
+    --bg-icon-green-hover: #2b8d54; 
+
+    --text-base-dark: #535353;
+    --text-base-light: #fff;
+
+    /* Fonts */
+    --font-dm-sans: "DM Sans", sans-serif;
+}
