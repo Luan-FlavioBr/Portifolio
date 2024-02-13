@@ -6,7 +6,7 @@
 .main-home {
     width: 98vw;
     height: 75vh;   
-    padding: 25em 0;
+    padding: 30em 0;
 }
 
 .main-home__container {
@@ -36,7 +36,7 @@ h2 {
 .main-subtitle {
     margin: 1.2em 0;
     color: var(--text-base-dark);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .button-cv,
