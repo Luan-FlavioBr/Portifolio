@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: var(--bg-color-dark);
     font-family: var(--font-dm-sans);
