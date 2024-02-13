@@ -5,15 +5,15 @@
 
 .main-home {
     width: 98vw;
-    height: 65vh;   
-    margin-bottom: 6em;
+    height: 75vh;   
+    padding: 25em 0;
 }
 
 .main-home__container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 6em;
+    height: 100%;
 }
 
 .main-content{
