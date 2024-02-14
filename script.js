@@ -31,6 +31,12 @@ const projetos = [{
     "imagem": "./src/assets/projects-images/SistemasCalc.gif",
     "alternativo": "Teste 1",
     "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
+},
+{   "titulo": "Parallax Site",
+    "texto": "Site com estilo Parallax, feito em HTML e CSS.",
+    "imagem": "./src/assets/projects-images/Parallax.gif",
+    "alternativo": "Teste 1",
+    "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
 }];
 
 const cardProjetos = document.querySelector('#projetos');
