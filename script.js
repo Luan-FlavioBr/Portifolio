@@ -57,4 +57,14 @@ projetos.forEach(projeto => {
 });
 
 
-console.log(screen.width);
+document.getElementById("cv-button").addEventListener("click", function() {
+    
+    var url = "./src/assets/CVDoc.pdf";
+    var anchorElement = document.createElement('a');
+
+    anchorElement.href = url;
+
+    anchorElement.download = "CV-Luan Flavio.pdf";
+
+    anchorElement.click();
+});

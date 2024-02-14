@@ -211,7 +211,7 @@ h2 {
     background-color: var(--bg-color-gray);
 
     width: 30%;
-    height: 80vh;
+    height: 70vh;
     padding-bottom: 2em;
     overflow: hidden;
     transition: all 400ms ease-in-out;
