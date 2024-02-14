@@ -160,9 +160,6 @@
 }
 
 @media screen and (max-width:480px) {
-
-    
-
     /*Contact*/
 
     .button {
@@ -175,5 +172,39 @@
 
     .email {
         width: 80%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+    }
+
+
+    .header__navigation {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .navigation {
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .main-content{ 
+        width: 90%;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .email {
+        font-size: 1.2em;
     }
 }
