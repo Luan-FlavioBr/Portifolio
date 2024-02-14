@@ -345,7 +345,7 @@ h2 {
     background-color: transparent;
     color: #FFF;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: all 200ms ease-in-out;
 }
 
 .instagram:hover {
