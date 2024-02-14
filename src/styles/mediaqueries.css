@@ -1,0 +1,179 @@
+@media screen and (max-width:1366px) {
+    .main-home {
+        padding: 25em 0;
+    }
+
+    .author-photo img{
+        height: 30em;
+        border-radius: 100%;
+    }
+
+    .project {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .main-home {
+        padding: 25em 0;
+    }
+
+    .main-content{
+        width: 35%;
+        height: fit-content;
+    }
+
+    .main-title {
+        font-size: 2.5em;
+    }
+
+    .author-photo img{
+        height: 20em;
+        border-radius: 100%;
+    }
+
+    .project {
+        width: 60%;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:870px) {
+
+    .header__navigation {
+        width: 50%;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 50%;
+        height: fit-content;
+    }
+
+    .contact-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*Header*/
+    .header__navigation {
+        width: 50%;
+    }
+
+    /*Main*/
+    .main-home {
+        padding: 20em 0;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 50%;
+        height: fit-content;
+    }
+
+    .author-photo img{
+        display: none;
+    }
+
+    /*About me*/
+
+    .skills {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    /*Projects*/
+    .project {
+        width: 70%;
+    }
+
+
+    /*Contact*/
+    .contact-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:668px) {
+    .skills ul{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:662px) {
+    .main-content{ 
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:625px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header__navigation {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navigation {
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .main-content{ 
+        width: 80%;
+    }
+
+    /*About me*/
+    .skills ul{
+        width: 90%;
+        gap: 2em;
+    }
+
+    .skills ul li {
+        width: 40%;
+    }
+
+    /*Projects*/
+    .project {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    
+
+    /*Contact*/
+
+    .button {
+        justify-content: space-around;
+        gap: 1em;
+
+        text-align: end;
+        width: 70%;
+    }
+
+    .email {
+        width: 80%;
+    }
+}

@@ -55,3 +55,6 @@ projetos.forEach(projeto => {
                 </a>
         </article>`
 });
+
+
+console.log(screen.width);
