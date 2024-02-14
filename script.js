@@ -1,9 +1,10 @@
 const projetos = [{
     "titulo": "Calculadora Estatistica",
-    "texto": "Programa feito em Python, para calulo de Pareto, Histograma, Cálculo Binomial.",
+    "texto": "Programa feito em Python, para calculo de Pareto, Histograma, Cálculo Binomial com CRUD.",
     "imagem": "./src/assets/images/image.png",
-    "alternativo": "Teste 1"
-}]
+    "alternativo": "Teste 1",
+    "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
+}];
 
 const cardProjetos = document.querySelector('#projetos');
 
@@ -15,9 +16,9 @@ projetos.forEach(projeto => {
                     <h3 class="projects-title">${projeto.titulo}</h3>
                     <p class="projects-subtitle">${projeto.texto}</p>
                 </div>
-                <a href="" class="project-seemore">
-                        <i class="fa-brands fa-github"></i>
-                        <p>Ver mais</p>
+                <a href="${projeto.href}" target="_blank" class="project-seemore">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Ver mais</p>
                 </a>
         </article>`
 });
