@@ -155,24 +155,24 @@ h2 {
     transition: all 200ms ease-in-out;
 }
 
+.technologies li img {
+    width: 1em;
+    filter: brightness(45%);
+    transition: all 200ms ease-in-out;
+}
+
 .technologies li:hover {
     color: #FFF;
+}
+
+.technologies li:hover img {
+    filter: brightness(100%);
 }
 
 .technologies p {
     margin-top: 0.5em;
     font-size: 18px;
     font-weight: bold;
-}
-
-.technologies li img {
-    width: 1em;
-    filter: brightness(30%);
-    transition: all 200ms ease-in-out;
-}
-
-.technologies li img:hover {
-    filter: brightness(100%);
 }
 
 /*Projetos*/
@@ -211,8 +211,9 @@ h2 {
     border-radius: 15px;
     background-color: var(--bg-color-gray);
 
-    width: 25%;
-    height: 30em;
+    width: 30%;
+    height: auto;
+    padding-bottom: 2em;
     overflow: hidden;
     transition: all 400ms ease-in-out;
 }
@@ -240,13 +241,15 @@ h2 {
 
 .projects-title {
     color: var(--text-base-light);
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
+    text-align: center;
+    width: fit-content;
 }
 
 .projects-subtitle {
     color: var(--text-base-light);
-    font-size: 18px;
+    font-size: 1.15em;
     line-height: 1.25em;
     text-align: center;
     width: 110%;
@@ -260,7 +263,7 @@ h2 {
 
     text-decoration: none;
     color: var(--text-base-light);
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
     border: 1px solid var(--text-base-light);
     border-radius: 15px;
@@ -275,4 +278,111 @@ h2 {
 .project-seemore:hover {
     color: #000;
     background-color: #FFF;
+}
+
+/*Contact*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5em 0;
+    border-top: 1px solid var(--text-base-dark);
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.contact-text {
+    color: var(--text-base-light);
+    font-size: 1.15em;
+    text-align: center;
+    width: 80%;
+}
+
+.contact-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2em;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+
+    box-sizing: border-box;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--text-base-light);
+    border: 1px solid var(--text-base-dark);
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.github:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.linkedin:hover {
+    color: #0A66C2;
+    background-color: #FFF;
+}
+
+.instagram {
+    background-color: transparent;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.instagram:hover {
+    color: #FFF;
+    background: linear-gradient(45deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 31%, rgba(98,40,215,1) 100%); 
+}
+
+.email {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--text-base-light);
+    border: 1px solid var(--text-base-dark);
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.email:hover {
+    background-color: #FFF;
+    color: #d44638;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-base-light);
+    font-size: 1.15em;
+    padding: 3em 0;
+    border-top: 1px solid var(--text-base-dark);
 }

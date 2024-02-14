@@ -4,6 +4,27 @@ const projetos = [{
     "imagem": "./src/assets/images/image.png",
     "alternativo": "Teste 1",
     "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
+},
+{
+    "titulo": "Calculadora Estatistica",
+    "texto": "Programa feito em Python, para calculo de Pareto, Histograma, Cálculo Binomial com CRUD.",
+    "imagem": "./src/assets/images/image.png",
+    "alternativo": "Teste 1",
+    "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
+},
+{
+    "titulo": "Calculadora Estatistica",
+    "texto": "Programa feito em Python, para calculo de Pareto, Histograma, Cálculo Binomial com CRUD.",
+    "imagem": "./src/assets/images/image.png",
+    "alternativo": "Teste 1",
+    "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
+},
+{
+    "titulo": "Calculadora Estatistica",
+    "texto": "Programa feito em Python, para calculo de Pareto, Histograma, Cálculo Binomial com CRUD.",
+    "imagem": "./src/assets/images/image.png",
+    "alternativo": "Teste 1",
+    "href" : "https://github.com/Luan-FlavioBr/Projeto-EST"
 }];
 
 const cardProjetos = document.querySelector('#projetos');
