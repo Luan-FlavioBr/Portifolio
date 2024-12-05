@@ -24,6 +24,10 @@ border-radius: 10px;
 border: 0px none #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--bg-color-dark);
     font-family: var(--font-dm-sans);
