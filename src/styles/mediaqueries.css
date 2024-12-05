@@ -10,6 +10,7 @@
 
     .project {
         width: 45%;
+        height: 80vh;
     }
 }
 
@@ -34,7 +35,7 @@
 
     .project {
         width: 60%;
-        height: fit-content;
+        height: 80vh;
     }
 }
 
